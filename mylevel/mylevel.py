@@ -36,12 +36,12 @@ class Level:
         self.scrollX = 0
 
         # Music in the Background
-        # self.sound = pyglet.media.Player()
-        # self.sound.queue(pyglet.media.load(config.background_music, streaming=True))
-        # self.sound.eos_action = 'loop'
-        # self.sound.loop = True
-        # self.sound.play()
-        # self.soundPlaying = True
+        self.sound = pyglet.media.Player()
+        self.sound.queue(pyglet.media.load(config.background_music, streaming=True))
+        self.sound.eos_action = 'loop'
+        self.sound.loop = True
+        self.sound.play()
+        self.soundPlaying = True
 
     # Here is a complete drawBoard function which will draw the terrain.
     # Lab Part 1 - Draw the board here
