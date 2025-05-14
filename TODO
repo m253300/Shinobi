@@ -1,3 +1,5 @@
+Add sounds for attack, enemy death, hero death, jump, throw and victory
+
 Redo all comments, removing unnecessary ones related to the class and adding more
 
 Refactor all entities to be children of larger "entity" class
@@ -5,3 +7,15 @@ Refactor all entities to be children of larger "entity" class
 Refactor mylevel directory so its actually just an assets directory
 
 Refactor game.py, mylevel.py and layout.py to be one big file. No need for them all to be seperate. Also no need for "mylevel" directory to exist
+
+Vertical camera movement
+
+Gliding via button while falling
+
+Jump attack
+
+Jump throw
+
+Slide via button while sprinting
+
+Climb via button when on object enabling climb-ability
